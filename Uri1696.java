@@ -1,5 +1,3 @@
-package Tree;
-
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.IOException;
@@ -88,14 +86,15 @@ public class Uri1696 {
 		
 			else{
 				
-				String entrada2= br.readLine();		
+				
 				for( int j = 0 ; j < T ; j++){
 					
 					if (N > 0 && Q == 0){
 						Turno.cambiarTurno();
 						for (int i =0 ; i < N ; i++){
-									
+							String entrada2= br.readLine();			
 							Insert((Integer.parseInt(entrada2.split(" ")[i])));
+							if (Insert() ==  )
 					}
 				}
 			}

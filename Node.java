@@ -1,11 +1,3 @@
-package Tree;
-/**
-* Data Structure, Node
-*	@author :Camila chacón
-*	@date 19-03-2019
-*	@version 1
-**/
-// this is father class or principal class
 public class Node {
 	
 
